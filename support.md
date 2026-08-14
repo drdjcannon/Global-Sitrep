@@ -26,9 +26,10 @@ No. There is no account, no sign-in, and no paywall. Every panel, layer and sour
 There is an optional tip jar that unlocks nothing.
 
 **Do I need an API key?**
-No. Most sources need nothing at all. Four of them (NASA FIRMS, ACLED, ReliefWeb, Windy.com) ask
-you to register with them directly, and Settings has a page explaining each with a signup link. The
-app works fine without them; those specific layers just stay empty and say so.
+No. Ten of the seventeen sources need nothing at all. Five (NASA FIRMS, ACLED, ReliefWeb,
+Windy.com and the OpenSky Network) ask you to register with them directly, and Settings has a page
+explaining each with a signup link. The app works fine without them; those specific layers just
+stay empty and say so.
 
 **Why does a source say "Needs a key" or "Failed"?**
 Settings lists every source with its state, and the reason if it failed. A source that returns
@@ -62,6 +63,24 @@ cable news when you open it is hostile and expensive on cellular. Pick a channel
 **How do I use less cellular data?**
 Fetches are throttled by how often each source actually publishes, so the app does not poll
 needlessly. The heaviest thing by far is live TV, so leave it closed on cellular.
+
+**The flights layer says "Zoom in to see flights".**
+OpenSky charges by the area you ask for, against a daily allowance attached to *your* account, so
+the app refuses to request a region larger than a continent rather than spending your allowance on
+a view where the aircraft would be dots. Zoom in and it loads. The chip tells you what it is doing
+at each step, including counting down when it is waiting.
+
+**Why does it say an aircraft is "likely military"?**
+That is inferred from the transponder's registration block and its callsign, both of which are
+public and neither of which is proof. The app says which of the two matched so you can judge it
+yourself. It will occasionally be wrong in both directions, which is why it says "likely" and
+never names a mission.
+
+**An aircraft shows no type or photograph.**
+Aircraft types come from a snapshot of OpenSky's aircraft database, which they no longer update.
+Anything registered since the snapshot is missing, and military and state aircraft are frequently
+withheld from it altogether. The app tells you which of those it is rather than leaving the space
+blank.
 
 ## Not for operational use
 
