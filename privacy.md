@@ -29,7 +29,8 @@ The providers your device may contact are the U.S. Geological Survey, GDACS, NAS
 FIRMS, The GDELT Project (including its bulk exports, which are hosted on Google Cloud Storage),
 the World Health Organization, abuse.ch, GitHub and the jsDelivr CDN (for the UCDP data mirror),
 the Humanitarian Data Exchange, UNHCR, the U.S. State Department, Open-Meteo, Yahoo Finance, IMF
-PortWatch, Polymarket, pizzint.watch, the World Bank, ReliefWeb, Windy.com, ACLED, the OpenSky
+PortWatch (whose feature service is hosted on Esri's ArcGIS Online), Polymarket, pizzint.watch,
+the World Bank, ReliefWeb, Windy.com, ACLED, the OpenSky
 Network and Wikimedia Commons. Apple Maps draws the map itself and is covered by Apple's privacy
 policy.
 
