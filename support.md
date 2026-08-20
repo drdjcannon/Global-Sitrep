@@ -57,12 +57,13 @@ It opens and shows you the last data it had, which is cached on your device. New
 connection.
 
 **Live TV does not start playing.**
-By design. Nothing autoplays and the sound starts muted, because a dashboard that begins blaring
-cable news when you open it is hostile and expensive on cellular. Pick a channel and unmute it.
+It does not play here at all. The channel list is a directory: pick a channel and it opens that
+broadcaster's own channel in YouTube, where it plays under their terms rather than inside Global
+Sitrep. Nothing opens until you choose one.
 
 **How do I use less cellular data?**
 Fetches are throttled by how often each source actually publishes, so the app does not poll
-needlessly. The heaviest thing by far is live TV, so leave it closed on cellular.
+needlessly. Watching a channel spends data in YouTube rather than here.
 
 **The flights layer says "Zoom in to see flights".**
 OpenSky charges by the area you ask for, against a daily allowance attached to *your* account, so

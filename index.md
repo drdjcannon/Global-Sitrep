@@ -40,7 +40,8 @@ missions for different jobs. Instability rankings, seismic activity, storms, out
 indices, commodities, currencies, live vessel transits through the world's shipping chokepoints,
 and a news wire drawn from hundreds of feeds.
 
-Plus live television from major international broadcasters, muted and paused until you ask for it.
+Plus a directory of broadcast news channels, each one a tap away in the broadcaster's own channel
+on YouTube.
 
 ## Honest about its data
 

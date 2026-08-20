@@ -85,10 +85,11 @@ aircraft type — never by which aircraft you tapped.
 
 ## Live television
 
-The live news channels play video from third parties, either YouTube or a broadcaster's own stream.
-Watching a channel means your device contacts **them**, and YouTube in particular has its own
-privacy policy and may set cookies in the embedded player. Nothing plays until you choose a
-channel: there is no autoplay, and the sound starts muted, deliberately.
+Global Sitrep does not play television. The channel list is a directory of links: tapping one
+opens that broadcaster's own channel in the YouTube app, or in Safari if you do not have it, and
+the video plays there rather than here. Once you leave, you are on YouTube's service under
+YouTube's privacy policy, and Global Sitrep is no longer involved. Nothing opens until you
+choose a channel.
 
 ## What Global Sitrep does not do
 
